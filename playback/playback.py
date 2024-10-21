@@ -1,2 +1,2 @@
 shout = input()
-print(lower(shout))
+print(shout.lower())
