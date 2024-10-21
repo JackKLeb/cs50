@@ -1,1 +1,2 @@
-
+🙂
+convert = input()
