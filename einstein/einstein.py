@@ -4,5 +4,5 @@
 #print(E)
 
 dollars = input("How much was the meal? ")
-dollars = dollars.remove("$")
+dollars = dollars.replace("$", "")
 print(float.dollars)
