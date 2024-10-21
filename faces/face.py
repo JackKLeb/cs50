@@ -1,6 +1,6 @@
 #🙂
 #🙁
 convert = input()
-replaced_convert = convert.replace(":)", "🙂")
-replaced_converted = replaced_convert.replace(":(", "🙁")
+replaced_convert = convert.replace(":)", "🙂").replace(":(", "🙁")
 
+print(replaced_convert)
