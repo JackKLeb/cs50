@@ -7,7 +7,7 @@ elif answer == "forty-two":
     print ("Yes")
 elif answer == "FoRty TwO":
     print("Yes")
-elif answer == " 42 ":
+elif answer == "42 ":
     print("Yes")
 else:
     print("No")
