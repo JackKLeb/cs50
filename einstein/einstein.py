@@ -3,6 +3,6 @@
 #E = m * c
 #print(E)
 
-dollars = input("How much was the meal? ")
-dollars = dollars.replace("$", "")
-print(float.dollars)
+f = input("How much was the meal? ")
+f = dollars.replace("$", "")
+print(float(f))
