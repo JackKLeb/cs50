@@ -1,3 +1,3 @@
 slowdown = "..."
-prompt = input("Type your prompt")
+prompt = input("Type your prompt: ")
 print(prompt.replace(" ", "..."))
