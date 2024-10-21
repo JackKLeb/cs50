@@ -1,2 +1,3 @@
-shout = input()
-print(shout.lower())
+slowdown = "..."
+prompt = input("Type your prompt")
+
