@@ -11,6 +11,7 @@ def sc(l):
             print(l, end = "")
         else:
             print("_", l.lower(), end = "", sep = "")
+    return(l)
 
 
 
