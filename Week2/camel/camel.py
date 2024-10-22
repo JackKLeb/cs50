@@ -1,11 +1,10 @@
 def main():
 
-    cc = input("camelCase: ")
+    #cc = input("camelCase: ")
     print ("snake_case: ", end = "")
-    sc = sc(cc)
-    print(sc)
 
 def sc(l):
+    cc = input("camelCase: ")
     for l in cc:
         if l.islower():
             print(l, end = "")
