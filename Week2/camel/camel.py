@@ -1,6 +1,6 @@
 def main():
     cc = input("camelCase: ")
-    print(snake_case(cc))
+    print("snake_case: ", snake_case(cc), sep = "")
 
 
 
