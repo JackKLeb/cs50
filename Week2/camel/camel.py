@@ -6,11 +6,11 @@ def main():
 
 
 def snake_case(camelCase):
-    for i in camelCase:
-        if i.islower():
-            print(i, end = "")
-        if i.isupper():
-            print("_", i.lower(), end = "", sep = "")
+    for l in camelCase:
+        if l.islower():
+            print(l, end = "")
+        if l.isupper():
+            print("_", l.lower(), end = "", sep = "")
 
 
 
