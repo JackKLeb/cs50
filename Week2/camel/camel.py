@@ -3,7 +3,7 @@ main():
     sc = snake_case(cc)
 
 def snake_case(camelCase)
-    for capital in camelCase
+    for i in camelCase
 
 
 
