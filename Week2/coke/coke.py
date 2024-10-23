@@ -10,6 +10,6 @@ def insert(n):
 main()
 """
 balance = input("Insert coins: ")
-
+due = 50
 while balance <= 50:
     balance
