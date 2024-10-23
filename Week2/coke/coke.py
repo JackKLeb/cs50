@@ -5,8 +5,8 @@ balance = 0
 
 
 while balance <= 50:
-    print("Amount due:", due)
-    balance = input("Insert coins: ")
+    print("Amount Due:", due)
+    balance = input("Insert Coin: ")
     balance = int(balance)
     #subtract the balance from the amount due
     due -= balance
