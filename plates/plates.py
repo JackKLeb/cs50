@@ -7,7 +7,7 @@ def main():
 
 
 def is_valid(s):
-    
+    if s[0:1]
 
 
 main()
