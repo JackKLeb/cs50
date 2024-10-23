@@ -1,13 +1,13 @@
 
 def main():
 
-In = input("Input: ")
+    In = input("Input: ")
 
-for l in In:
-    if isvowel(l):
-        print("", end = "", sep = "")
-    else:
-        print(l, end = "", sep = "")
+    for l in In:
+        if isvowel(l):
+            print("", end = "", sep = "")
+        else:
+            print(l, end = "", sep = "")
 
 
 
