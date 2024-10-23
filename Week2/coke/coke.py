@@ -18,7 +18,7 @@ balance = input("Insert coins: ")
 
 while balance <= 50:
         #ask for more coins
-    add = input("Insert coins: ")
+    add = int(input("Insert coins: "))
         #add the amount given to the balance
     balance += add
         #subtract the balance from the amount due
