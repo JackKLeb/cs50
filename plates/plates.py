@@ -7,8 +7,12 @@ def main():
 
 
 def is_valid(s):
-    if s[0:1].isdigit:
+    if s[:1].isdigit:
         return False
-    if
+    if 2 <= len(s) <= 6:
+        return True
 
+def is_digit(s):
+    for l in s[0:1]:
+        if l == range(10)
 main()
