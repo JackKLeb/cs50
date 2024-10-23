@@ -7,7 +7,8 @@ def main():
 
 
 def is_valid(s):
-    if s[0:1]
-
+    if s[0:1].isdigit:
+        return False
+    if
 
 main()
