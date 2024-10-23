@@ -1,2 +1,12 @@
+"""
+def main():
+
 while balance <= 50
-    print("Insert coins")
+    insert()
+
+def insert(n):
+    balance = input("Insert coins: ")
+
+main()
+"""
+balance = "
