@@ -16,7 +16,7 @@ print("Amount due:", due)
 
 balance = input("Insert coins: ")
 
-while balance <= 50:
+while int(balance) <= 50:
         #ask for more coins
     add = int(input("Insert coins: "))
         #add the amount given to the balance
