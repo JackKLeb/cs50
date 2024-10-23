@@ -8,6 +8,7 @@ def main():
             print("", end = "", sep = "")
         else:
             print(l, end = "", sep = "")
+    print()
 
 
 
