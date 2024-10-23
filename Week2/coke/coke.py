@@ -9,11 +9,11 @@ def insert(n):
 
 main()
 """
-balance = input("Insert coins: ")
-due = 50
-do:
-    due = 50
-    print(due)
 
+due = 50
+print("Amount due:", due)
+balance = input("Insert coins: ")
     while balance <= 50:
+        add = input("Insert coins: ")
+        balance += add
 
