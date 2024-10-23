@@ -11,5 +11,9 @@ main()
 """
 balance = input("Insert coins: ")
 due = 50
-while balance <= 50:
-    balance
+do:
+    due = 50
+    print(due)
+
+    while balance <= 50:
+
