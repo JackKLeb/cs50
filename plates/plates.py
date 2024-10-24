@@ -13,6 +13,8 @@ def is_valid(s):
         return True
 
 def is_digit(s):
-    for l in s[0:1]:
-        if l == range(10)
+    n = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    for i in s[0:2]:
+        if i in n:
+            return True
 main()
