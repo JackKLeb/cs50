@@ -7,7 +7,7 @@ def main():
 
 
 def is_valid(s):
-    if s[:1].isdigit:
+    if is_digit(s):
         return False
     if 2 <= len(s) <= 6:
         return True
