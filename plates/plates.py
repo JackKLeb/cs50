@@ -7,10 +7,13 @@ def main():
 
 
 def is_valid(s):
+    x = [".", " "]
     if is_digit(s):
         return False
     if 2 <= len(s) <= 6:
         return True
+    if x in s:
+        return False
 
 def is_digit(s):
     n = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
