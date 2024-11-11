@@ -34,26 +34,18 @@ def date(j):
 
             try:
                 month = int(month)
-                pass
-            except ValueError:
-                continue
 
-            try:
                 if ckday(day) == True:
                     pass
                 else:
                     raise KeyError
 
-            except KeyError:
-                continue
-
-            try:
                 if ckmonth(month) == True:
                     pass
                 else:
                     raise KeyError
 
-            except KeyError:
+            except (KeyError, ValueError):
                 continue
 
             day = chday(day)
@@ -74,16 +66,13 @@ def date(j):
             day = date[1]
             year = date[2]
 
-            #checks to make sure the month is before the day in the input
+            #catch any KeyErrors
             try:
+
                 month = change_month(month, j)
 
-            except KeyError:
-                continue
+                day = day[:-1]
 
-            day = day[:-1]
-
-            try:
                 if ckday(day) == True:
                     pass
                 else:
@@ -124,7 +113,7 @@ def chday(day):
         return day
     else:
         return day
-        
+
 #Adds a 0 to the front of the month if there isn't already one there
 def chmonth(month):
     if len(str(month)) == 1:
