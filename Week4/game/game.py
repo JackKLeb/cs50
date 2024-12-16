@@ -11,7 +11,7 @@ def main():
             else:
                 continue
 
-        except ValueError:
+        except (ValueError, EOFError):
             continue
 
     x = random.randint(1, n)
@@ -31,7 +31,7 @@ def main():
             else:
                 continue
 
-        except ValueError:
+        except (ValueError, EOFError):
             continue
 
 def check(g, x):
