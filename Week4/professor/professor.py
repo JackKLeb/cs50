@@ -60,10 +60,10 @@ def generate_integer(level):
 
     if level == 1:
         while i < 10:
-            x = random.randint(1,9)
+            x = random.randint(0,9)
             x_list.append(x)
 
-            y = random.randint(1,9)
+            y = random.randint(0,9)
             y_list.append(y)
             i += 1
         return x_list, y_list
