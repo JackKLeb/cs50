@@ -1,4 +1,5 @@
 import random
+import sys
 
 def main():
     while True:
@@ -33,6 +34,7 @@ def main():
 
         except (ValueError, EOFError):
             continue
+    sys.exit()
 
 def check(g, x):
     if g == x:
